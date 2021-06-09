@@ -22,6 +22,7 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           command-prefix: npx happo-cypress -- npx
+          start: npm start
         env:
           # Inject secrets to the build
           HAPPO_API_KEY: ${{ secrets.HAPPO_API_KEY }}

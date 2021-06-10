@@ -8,6 +8,6 @@ module.exports = {
         'chrome-desktop': new RemoteBrowserTarget('chrome', {
             viewport: '1024x768',
         }),
-        'chrome-desktop': new RemoteBrowserTarget('ios-safari'),
+        'ios-safari': new RemoteBrowserTarget('ios-safari'),
     },
 };
